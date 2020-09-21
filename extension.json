@@ -1,0 +1,14 @@
+{
+  "identifier": "org.rs",
+  "name": "Rust",
+  "organization": "MyOrganization",
+  "description": "Lorem ipsum, dolor sit amet.",
+  "version": "1.0",
+  "categories": ["languages"],
+  "activationEvents": ["onLanguage:Rust", "onWorkspaceContains:*.rs"],
+  "entitlements": {
+    "process": true,
+    "requests": false,
+    "filesystem": "readwrite"
+  }
+}

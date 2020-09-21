@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <provider>
+        <selector>rust</selector>
+        <expression>\b[a-zA-Z0-9-_]*</expression>
+        <set>rust.keywords</set>
+    </provider>
+    
+    <!-- keywords -->
+    <set name="rust.keywords">
+        <completion string="async" />
+        <completion string="await" />
+        <completion string="const" />
+        <completion string="crate" />
+        <completion string="else" />
+        <completion string="fn" />
+        <completion string="if" />
+        <completion string="let" />
+        <completion string="match" />
+        <completion string="mut" />
+        <completion string="pub" />
+        <completion string="return" />
+        <completion string="self" />
+        <completion string="struct" />
+        <completion string="type" />
+        <completion string="use" />
+    </set>
+    
+    <set name="rust.std.core">
+        <completion string="ok" />
+        <completion string="unwrap" />
+    </set>
+    
+</completions>
